@@ -1,0 +1,30 @@
+CREATE TABLE quiztb (
+  
+id int UNSIGNED NOT NULL PRIMARY KEY,
+
+challenge varchar(50) NOT NULL,
+
+question varchar(500) NOT NULL,
+  
+answer varchar(50) NOT NULL,
+
+image varchar(10) NOT NULL,
+
+descript varchar(60) NOT NULL
+);
+
+INSERT INTO quiztb (id, challenge, question, answer, image, descript) 
+VALUES
+(1, "Challenge 1", "<html>I am black and white.<br><br> I love bamboo.<br><br> What animal am I?<html>", "panda", "p.jpg", "Pandas are a symbol of peace in China.");
+
+INSERT INTO quiztb (id, challenge, question, answer, image, descript)
+VALUES (2, "Challenge 2", "<html>I am a bird.<br><br> I have the name of a fruit.<br><br> What is my name?<html>", "kiwi", "k.png", "Kiwis are flightless birds.");
+
+INSERT INTO quiztb (id, challenge, question, answer, image, descript)
+VALUES (3, "Challenge 3", "<html>My laugh resembles that of a hysterical human laughter.<br><br> What animal am I?<html>", "hyena", "h.png", "Hyena: Africa’s most common large carnivore.");
+
+INSERT INTO quiztb (id, challenge, question, answer, image, descript)
+VALUES (4, "Challenge 4", "<html>I am the largest hopping animal on Earth.<br><br> What animal am I?<html>", "kangaroo", "ka.png", "In one leap they can jump 3m high & 7.6m long.");
+
+INSERT INTO quiztb (id, challenge, question, answer, image, descript)
+VALUES (5, "Challenge 5", "<html>I eat eucalyptus leaves.<br><br>I live in Australia.<br><br> What animal am I?<html>", "koala", "koala.png", "The koala will eat 2.5 pounds of food a day."); 

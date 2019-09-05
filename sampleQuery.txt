@@ -1,0 +1,1 @@
+INSERT INTO quiztb VALUES(6, "Challenge 6","<html>I am big.<br><br> I drink with my trunk.<br><br> What animal am I?<html>", "elephant", "e.png", "They are the largest land animal on Earth.");
